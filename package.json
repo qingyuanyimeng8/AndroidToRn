@@ -1,0 +1,18 @@
+{
+  "name": "rntest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.android.js",
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "bundle-android": "react-native bundle --platform android --dev false --entry-file index.android.js --bundle-output Widgets/app/src/main/assets/index.android.bundle --sourcemap-output Widgets/app/src/main/assets/index.android.map --assets-dest Widgets/app/src/main/res/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "antd": "^3.9.2",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "react-native": "^0.56.1"
+  }
+}
