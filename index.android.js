@@ -1,5 +1,6 @@
 import React from 'react';
 import {AppRegistry, StyleSheet, Text, View} from 'react-native';
+import MineScene from './pages/MineScene.js'
 
 class HelloWorld extends React.Component {
     render() {
@@ -22,4 +23,4 @@ var styles = StyleSheet.create({
         margin: 10,
     },
 });
-AppRegistry.registerComponent('HelloWorld', () => HelloWorld);
+AppRegistry.registerComponent('HelloWorld', () => MineScene);
